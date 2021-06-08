@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 100%;
+}
+nav{
+
+}
+.nav-container{
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%; 
+    background-color: white;
+    position: fixed;
+    box-shadow: 2px 2px 5px black;
+    
+}
+.nav-title h1{
+    margin-left: .8rem;
+    cursor: pointer;
+    
+}
+
+.nav-button ul{
+    display: flex;
+   justify-content: flex-end;
+   padding: 1rem;
+}
+.nav-button li{
+    margin-left: .7rem;
+   cursor: pointer;
+}
+
+.content{
+    text-align: center;
+}
+
+.section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/photo-1619494139903-f34bc7095e0f.jpg");  
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    text-align: center;
+    opacity: 0.8;
+}
+.section-one h2{
+    padding: 2rem;
+    background-color: rgba(97, 97, 97, 0.8);
+    font-size: 30px;
+    color: rgb(252, 251, 255);
+    letter-spacing: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h2{
+    padding-right: 1rem;
+}
+
+section{
+    margin-bottom: 5rem;
+}
+
+section h3 {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+section  p{
+    line-height: 30px;
+    text-align: justify;
+    margin: 0 3%;
+    
+}
+
+
+.section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/photo-1508171997656-fdf7cf6c4df9.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.section-two h2{
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.91);
+    font-size: 30px;
+    color: rgb(252, 251, 255);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.section-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/photo-1485877879181-377cc7dcae20.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    text-align: center;
+    opacity: 0.7;
+}
+.section-three h2{
+    padding: 2rem;
+    background-color: rgba(97, 97, 97, 0.8);
+    font-size: 30px;
+    color: rgb(252, 251, 255);
+    letter-spacing: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+
+.section-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/photo-1446748991438-5954518f11d4.jpg");  
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    text-align: center;
+    opacity: 0.7;
+}
+.section-four h2{
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.91);
+    font-size: 30px;
+    color: rgb(252, 251, 255);
+    letter-spacing: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+footer{
+    padding-bottom: 2rem;
+    
+    text-align: center;
+}
+footer a {
+    letter-spacing: 2px;
+    color: black;
+}
+i .fa-linkedin{
+    font-size: 35px;
+}
+
+/* Animações da página */
+
+h1::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: rgb(92, 92, 92);;
+    transition: .5s ease-out;
+}
+h1:hover::after{
+    width: 100%;
+}
+
+.nav-button li::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: rgb(92, 92, 92);
+    transition: .5s ease-out;
+}
+
+.nav-button li:hover::after{
+    width: 100%;
+}
