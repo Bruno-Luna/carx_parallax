@@ -1,5 +1,5 @@
-# CarsX
-Este projeto tem por objetivo criar uma página que remete aos padrões de estilo `Parallax`, bem como deixá-lo responsivo.  Para fins de incremento do presente trabalho, utilizei alguns pseudos-elementos como: `::after`, `::before` juntamente com a propriedade `transition` para apresentar transições. Foi inserido um menu fixo na página. 
+# CarsX_Parallax
+Este projeto tem por objetivo criar uma página que remete aos padrões de estilo `Parallax`, bem como deixá-lo responsivo.  Para fins de incremento do presente trabalho, utilizei algumas pseudos-classes como: `::after`, `::before` juntamente com a propriedade `transition` para oferecer transições. Aprendi como fazer  um menu fixo independente do scroll.
 
 ![APM](https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565)
 
@@ -19,27 +19,33 @@ https://bruno-luna.github.io/carx_parallax/
 
   - carx_parallax/
 	 - index.html
+	
 	- readme.md
+	
 	 - assets/
-		 
-		 - style/
-		 
+		
+		 - screenshot/
+		  - sc_I.png
+		  - sc_II.png
+		
+		- style/
+		
 		     - style.css
-		 
+		
 		 - img/
-		 
+		
 		   - photo-one.jpg
 		   - photo-two.jpg
 		   - photo-three.jpg
 		   - photo-four.jpg
-		 
+		
 		   
 	
 ## Especificações:
 
 -   Fonte utilizada:  `Lato, sans-serif`
 -   Cores utilizadas:
-    - Preto: `#000, rgba(0, 0, 0, 0.91)`
+    - Preto: `rgba(0, 0, 0, 0.91)`
     
     - Branco: `#fff, rgba(243, 241, 241, 0.919), rgb(252, 251, 255); `
     
@@ -48,7 +54,7 @@ https://bruno-luna.github.io/carx_parallax/
       
     
 
-## Layout:
+## Screenshot:
 
 ![]()
 
