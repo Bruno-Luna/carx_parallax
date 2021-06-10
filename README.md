@@ -1,5 +1,5 @@
 # CarsX_Parallax
-Este projeto tem por objetivo criar uma página que remete aos padrões de estilo `Parallax`, bem como deixá-lo responsivo.  Para fins de incremento do presente trabalho, utilizei algumas pseudos-classes como: `::after`, `::before` juntamente com a propriedade `transition` para oferecer transições. Aprendi como fazer  um menu fixo independente do scroll.
+Este projeto tem por objetivo criar uma página que remete aos padrões de estilo `Parallax`, bem como deixá-la responsiva.  Para fins de incremento do presente trabalho, utilizei algumas pseudos-classes como: `::after`, `::before` juntamente com a propriedade `transition` para oferecer transições. Aprendi como fazer  um menu fixo independente do scroll.
 
 ![APM](https://camo.githubusercontent.com/2b5be4f21ba05bac285e81a1a1f11036ee50ca3bb9b2b7b00a3cd1cf0589b2fc/68747470733a2f2f696d672e736869656c64732e696f2f61706d2f6c2f76696d2d6d6f64653f636f6c6f723d626c7565)
 
@@ -43,7 +43,7 @@ https://bruno-luna.github.io/carx_parallax/
 	
 ## Especificações:
 
--   Fonte utilizada:  `Lato, sans-serif`
+-   Fontes utilizada:  `Lato, sans-serif`
 -   Cores utilizadas:
     - Preto: `rgba(0, 0, 0, 0.91)`
     
@@ -56,8 +56,8 @@ https://bruno-luna.github.io/carx_parallax/
 
 ## Screenshot:
 
-![]()
+![](https://github.com/Bruno-Luna/carx_parallax/blob/master/assets/screenshot/sc_I.png)
 
 
 
-![]()
+![](https://github.com/Bruno-Luna/carx_parallax/blob/master/assets/screenshot/sc_II.png)
